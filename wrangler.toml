@@ -1,0 +1,16 @@
+name = "edgeaffiliate-ai"
+compatibility_date = "2025-06-25"
+main = "./Worker.js"
+
+[vars]
+AMAZON_US_TAG = "your_amazon_us_tag_here"
+AMAZON_SA_TAG = "your_amazon_sa_tag_here"
+DEFAULT_GEO = "GLOBAL"
+
+[kv_namespaces]
+binding = "AFFILIATE_KV"
+id = "placeholder"
+preview_id = "placeholder"
+
+[ai]
+binding = "AI"
