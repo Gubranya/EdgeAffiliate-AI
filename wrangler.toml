@@ -3,14 +3,14 @@ compatibility_date = "2025-06-25"
 main = "./Worker.js"
 
 [vars]
-AMAZON_US_TAG = "your_amazon_us_tag_here"
-AMAZON_SA_TAG = "your_amazon_sa_tag_here"
+AMAZON_US_TAG = "your_temp_tag_us"
+AMAZON_SA_TAG = "your_temp_tag_sa"
 DEFAULT_GEO = "GLOBAL"
 
-[[kv_namespaces]]
-binding = "AFFILIATE_KV"
-id = "placeholder"
-preview_id = "placeholder"
+# القسم الجديد الصحيح:
+kv_namespaces = [
+  { binding = "AFFILIATE_KV", id = "", preview_id = "" }
+]
 
 [ai]
 binding = "AI"
