@@ -7,10 +7,15 @@ AMAZON_US_TAG = "your_temp_tag_us"
 AMAZON_SA_TAG = "your_temp_tag_sa"
 DEFAULT_GEO = "GLOBAL"
 
-# القسم الجديد الصحيح:
+# قسم KV المعدل بالشكل الصحيح
 kv_namespaces = [
   { binding = "AFFILIATE_KV", id = "", preview_id = "" }
 ]
 
+# قسم الذكاء الاصطناعي
 [ai]
 binding = "AI"
+
+# إعدادات إضافية لتجنب الأخطاء
+[build]
+upload.format = "modules"
