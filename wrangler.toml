@@ -1,21 +1,16 @@
-name = "edgeaffiliate-ai"
+name = "example-project"
 compatibility_date = "2025-06-25"
 main = "./Worker.js"
 
 [vars]
-AMAZON_US_TAG = "your_temp_tag_us"
-AMAZON_SA_TAG = "your_temp_tag_sa"
+AMAZON_US_TAG = "your_tag_here"
+AMAZON_SA_TAG = "your_tag_here"
 DEFAULT_GEO = "GLOBAL"
 
-# قسم KV المعدل بالشكل الصحيح
-kv_namespaces = [
-  { binding = "AFFILIATE_KV", id = "", preview_id = "" }
-]
+[kv_namespaces]
+binding = "AFFILIATE_KV"
+id = "replace_with_real_id"
+preview_id = "replace_with_preview_id"
 
-# قسم الذكاء الاصطناعي
 [ai]
 binding = "AI"
-
-# إعدادات إضافية لتجنب الأخطاء
-[build]
-upload.format = "modules"
