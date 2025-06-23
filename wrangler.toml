@@ -1,20 +1,16 @@
-name = "example-project"
+name = "edgeaffiliate-ai"
 compatibility_date = "2025-06-25"
 main = "./Worker.js"
 
 [vars]
-AMAZON_US_TAG = "your_tag_here"
-AMAZON_SA_TAG = "your_tag_here"
+AMAZON_US_TAG = "your_temp_tag_us"
+AMAZON_SA_TAG = "your_temp_tag_sa"
 DEFAULT_GEO = "GLOBAL"
 
-# استخدم هذا التنسيق بدلاً من الأقواس المزدوجة
-kv_namespaces = [
-  {
-    binding = "AFFILIATE_KV",
-    id = "replace_with_real_id",
-    preview_id = "replace_with_preview_id"
-  }
-]
+[[kv_namespaces]]
+binding = "AFFILIATE_KV"
+id = "placeholder"
+preview_id = "placeholder"
 
 [ai]
 binding = "AI"
