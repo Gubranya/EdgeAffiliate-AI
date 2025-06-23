@@ -7,10 +7,14 @@ AMAZON_US_TAG = "your_tag_here"
 AMAZON_SA_TAG = "your_tag_here"
 DEFAULT_GEO = "GLOBAL"
 
-[kv_namespaces]
-binding = "AFFILIATE_KV"
-id = "replace_with_real_id"
-preview_id = "replace_with_preview_id"
+# استخدم هذا التنسيق بدلاً من الأقواس المزدوجة
+kv_namespaces = [
+  {
+    binding = "AFFILIATE_KV",
+    id = "replace_with_real_id",
+    preview_id = "replace_with_preview_id"
+  }
+]
 
 [ai]
 binding = "AI"
