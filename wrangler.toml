@@ -9,8 +9,8 @@ DEFAULT_GEO = "GLOBAL"
 
 [[kv_namespaces]]
 binding = "AFFILIATE_KV"
-id = "placeholder"
-preview_id = "placeholder"
+id = "b6b27e1475174010b3eac796d3bf62b8"
+preview_id = "b6b27e1475174010b3eac796d3bf62b8"
 
 [ai]
 binding = "AI"
